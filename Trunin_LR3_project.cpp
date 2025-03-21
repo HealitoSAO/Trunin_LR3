@@ -25,7 +25,9 @@ void processNumbers(int A, int B, int C) {
 }
 
 void runProgram() {
-   
+    int A, B, C;
+    inputNumbers(A, B, C);
+    processNumbers(A, B, C);
 }
 
 int main() {
