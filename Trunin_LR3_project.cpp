@@ -15,7 +15,8 @@ void calculateRemainder(int A, int B, int C) {
 }
 
 void calculateIntegerDivision(int A, int B, int C) {
-   
+    int integerPart = A / (B + C);
+    std::cout << "Integer part of A divided by the sum of B and C: " << integerPart << std::endl;
 }
 
 void processNumbers(int A, int B, int C) {
