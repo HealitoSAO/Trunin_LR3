@@ -20,7 +20,8 @@ void calculateIntegerDivision(int A, int B, int C) {
 }
 
 void processNumbers(int A, int B, int C) {
-   
+    calculateRemainder(A, B, C);
+    calculateIntegerDivision(A, B, C);
 }
 
 void runProgram() {
