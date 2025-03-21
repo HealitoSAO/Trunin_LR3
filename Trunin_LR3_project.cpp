@@ -10,7 +10,8 @@ void inputNumbers(int &A, int &B, int &C) {
 }
 
 void calculateRemainder(int A, int B, int C) {
-    
+    int remainder = (A - B) % C;
+    std::cout << "Remainder of the difference A and B divided by C: " << remainder << std::endl;
 }
 
 void calculateIntegerDivision(int A, int B, int C) {
